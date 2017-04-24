@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
- * File:   alloc_interface.h
- * Author: alexandre
- *
- * Created on 23 de Abril de 2017, 22:07
+ *  Author: Alexandre Magno Monteiro
+ *  Repositório: https://github.com/amagno/exercicio-interface-c
  */
-
 #ifndef ALLOC_INTERFACE_H
 #define ALLOC_INTERFACE_H
 
