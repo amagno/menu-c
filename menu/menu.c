@@ -33,7 +33,7 @@ void registrarOpcao(int indice, Exercicio exercicio, char *enunciado) {
 
 void layout() {
     int i;
-    printf(" -- INTERFACE EXERCÍCIOS -- \n\n");
+    printf(" -- MENU -- \n\n");
 
     for (i = 0; i <= getTamanhoExercicios(); i++) {
         if (i == 0) {
@@ -41,8 +41,6 @@ void layout() {
         } else {
             if (enunciadoExiste(i)) {
                 printf("[%d]  -  %s \n", i, getEnunciado(i));
-            } else {
-                printf("[%d]  - Exercício sem enunciado \n", i);
             }
         }
     }
@@ -64,7 +62,7 @@ int renderizarMenu() {
         } else {
             if (opcao != 0) {
             	limpaTela();
-            	printf("Opção: [%d] não existe, por favor registro-a com a função registrarOpcao();", opcao);
+            	printf("Opção: [%d] não existe, por favor registro-a com a função registrarOpcao(); \n\n", opcao);
             	pausa();
             } else {
             	printf("Saindo......");

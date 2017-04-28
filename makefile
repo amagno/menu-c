@@ -15,3 +15,4 @@ main-$(VERSION): $(SRC) $(MENU_OBJECTS)
 
 clean:
 	rm *.exe
+	rm */*.o
