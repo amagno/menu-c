@@ -1,7 +1,9 @@
 MENU EM C
 =================
+[![label](https://img.shields.io/github/issues-raw/badges/shields/website.svg)](https://github.com/amagno/menu-c/issues) ![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
 > Api em C para renderização de um menu no console
 ![alt text](https://github.com/amagno/menu-c/blob/master/gif/uso.gif "Usage Menu")
+
 
 - [Exemplo](#exemplo)
 - [Compilando e Instalando](#compilando-e-instalando)
