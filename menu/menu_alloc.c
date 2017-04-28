@@ -5,8 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "alloc_interface.h"
-#include "alloc_interface_erros.h"
+#include "menu_alloc.h"
+#include "menu_alloc_erros.h"
 
 
 

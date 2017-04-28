@@ -4,7 +4,7 @@
  */
 #ifndef MENU_INTERFACE_H
 #define MENU_INTERFACE_H
-#include "alloc_interface.h"
+#include "menu_alloc.h"
 
 void limpaTela();
 void pausa();

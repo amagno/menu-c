@@ -4,7 +4,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "alloc_interface_erros.h"
+#include "menu_alloc_erros.h"
 
 LimpadorDeMemoria limpadorDeMemoria;
 int limpadorRegistrado = 0;

@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "alloc_interface.h"
+#include "menu_alloc.h"
 
 void limpaTela() {
     #if defined(__linux__) || defined(__unix__) || defined(__APPLE__)
