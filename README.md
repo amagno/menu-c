@@ -1,6 +1,8 @@
 MENU EM C
 =================
 > Api em C para renderização de um menu no console
+![alt text](https://github.com/amagno/menu-c/blob/master/gif/uso.gif "Usage Menu")
+
 - [Exemplo](#exemplo)
 - [Compilando e Instalando](#compilando-e-instalando)
 - [Contribua](#contribua)
