@@ -6,5 +6,5 @@ int teste1() {
     return 1;
 }
 int teste2() {
-    return 0;
+    return 1;
 }
