@@ -4,10 +4,10 @@ MENU EM C
 > Api em C para renderização de um menu no console
 ![alt text](https://github.com/amagno/menu-c/blob/master/gif/uso.gif "Usage Menu")
 
-
-- [Exemplo](#exemplo)
-- [Compilando e Instalando](#compilando-e-instalando)
 - [Contribua](#contribua)
+- [Exemplo de uso](#exemplo)
+- [Compilando e Instalando](#compilando-e-instalando)
+- [Testando](#testando)
 
 ### Contribua
 #### Contribua para este projeto 
@@ -59,4 +59,26 @@ int main() {
     registrarOpcao(4, exemplo4, "Enunciado exemplo 4");
     return renderizarMenu();
 }
+```
+### Compilando e Instalando
+> A compilação dos arquivo utiliza o make consulte para mais detalhes: [Utilizando o Make para Compilar C](http://www.klebermota.eti.br/2013/03/11/usando-o-gcc-e-o-make-para-compilar-lincar-e-criar-aplicacoes-cc/)
+> Utilize no Windows com [MinGW](http://www.mingw.org/)
+
+```shell
+git clone https://github.com/amagno/menu-c.git
+cd menu-c
+make
+```
+
+### Testando
+#### Rodando testes
+##### Unix
+```shell
+make test
+./test
+```
+##### Windows
+```shell
+make test
+test.exe
 ```
