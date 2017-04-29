@@ -1,0 +1,10 @@
+language: c
+dist: trusty
+sudo: required
+
+compiler:
+  - gcc
+
+script:
+  - make test
+  - ./test
