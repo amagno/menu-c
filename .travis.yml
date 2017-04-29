@@ -8,3 +8,5 @@ compiler:
 script:
   - make test
   - ./test
+  - make
+  - make clean

@@ -17,6 +17,7 @@ main-$(VERSION): $(SRC) $(MENU_OBJECTS)
 
 test: $(TEST_HEADERS) $(TEST_SRC)
 	gcc -o $@ $^ $(CFLAGS)
+	
 clean:
-	rm *.exe
-	rm */*.o
+	rm -f *.exe
+	rm -f */*.o

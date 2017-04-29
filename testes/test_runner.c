@@ -43,10 +43,10 @@ int run() {
     printf("\n PASSED: [%d]  |   FAIL: [%d] \n", passed, fail);
     
     if(fail) {
-        fprintf(stderr, "\n Have fails! \n");
         exit(EXIT_FAILURE);
     } else {
         exit(EXIT_SUCCESS);
     }
+    free(tests);
     return 0;
 }

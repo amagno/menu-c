@@ -5,8 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 //#include "../menu/menu.h"
-#include "../testes/menu_alloc_test.h"
-#include "../testes/test_runner.h"
+
 
 
 void exemplo1() {
@@ -23,9 +22,6 @@ void exemplo4() {
 }
 int main() {
     //return renderizarMenu();
-    registryTest(teste1);
-    registryTest(teste2);
-    run();
 
 }
 
