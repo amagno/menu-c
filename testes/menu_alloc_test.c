@@ -1,10 +1,11 @@
 #include <assert.h>
 #include "test_runner.h"
 #include "menu_alloc_test.h"
+#include "../menu/menu_alloc.h"
 
-int teste1() {
-    return 1;
+int testeSetEnunciado() {
+    return 0;
 }
-int teste2() {
-    return 1;
+int testeGetEnunciado() {
+    return 0;
 }

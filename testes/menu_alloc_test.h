@@ -5,9 +5,8 @@
 #ifndef ALLOC_INTERFACE_TEST_H
 #define ALLOC_INTERFACE_TEST_H
 
-int teste1();
-int teste2();
-
+int testeSetEnunciado();
+int testeGetEnunciado();
 
 #endif /* ALLOC_INTERFACE_TEST_H */
 
