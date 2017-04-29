@@ -1,6 +1,6 @@
 MENU EM C
 =================
-[![label](https://img.shields.io/github/issues-raw/amagno/menu-c.svg)](https://github.com/amagno/menu-c/issues) ![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
+[![label](https://img.shields.io/github/issues-raw/amagno/menu-c.svg)](https://github.com/amagno/menu-c/issues) ![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg) [![Build Status](https://travis-ci.org/amagno/menu-c.svg?branch=master)](https://travis-ci.org/amagno/menu-c)
 > Api em C para renderização de um menu no console
 ![alt text](https://github.com/amagno/menu-c/blob/master/gif/uso.gif "Usage Menu")
 
